@@ -25,6 +25,11 @@ vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 
 # ADSP modules
+vendor/lib/rfsa/adsp/bm2n06.bin
+vendor/lib/rfsa/adsp/bm2n08.bin
+vendor/lib/rfsa/adsp/bm2n13.bin
+vendor/lib/rfsa/adsp/bm2n14.bin
+vendor/lib/rfsa/adsp/bm2n15.bin
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
@@ -209,6 +214,7 @@ vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera_dirty.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamera_scene.so
+vendor/lib64/libcamera_scene_dxo.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamlog.so
 vendor/lib64/libcapiv2svacnn.so
@@ -220,6 +226,7 @@ vendor/lib64/libcom.xiaomi.debug.so
 vendor/lib64/libcom.xiaomi.grallocutils.so
 vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
+vendor/lib64/libcup_preview.so
 vendor/lib64/libcvface_api.so
 vendor/lib64/libfocus.so
 vendor/lib64/libhdrdynamic.so
@@ -256,6 +263,7 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
+vendor/lib64/libportrait_blur.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/librelight_only.so
@@ -627,6 +635,29 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # Media (VPU firmware)
+vendor/firmware/vpu20_1v.b00
+vendor/firmware/vpu20_1v.b01
+vendor/firmware/vpu20_1v.b02
+vendor/firmware/vpu20_1v.b03
+vendor/firmware/vpu20_1v.b04
+vendor/firmware/vpu20_1v.b05
+vendor/firmware/vpu20_1v.b06
+vendor/firmware/vpu20_1v.b07
+vendor/firmware/vpu20_1v.b08
+vendor/firmware/vpu20_1v.b09
+vendor/firmware/vpu20_1v.b10
+vendor/firmware/vpu20_1v.b11
+vendor/firmware/vpu20_1v.b12
+vendor/firmware/vpu20_1v.b13
+vendor/firmware/vpu20_1v.b14
+vendor/firmware/vpu20_1v.b15
+vendor/firmware/vpu20_1v.b16
+vendor/firmware/vpu20_1v.b17
+vendor/firmware/vpu20_1v.b18
+vendor/firmware/vpu20_1v.b19
+vendor/firmware/vpu20_1v.mbn
+vendor/firmware/vpu20_1v.mdt
+vendor/firmware/vpu20_1v_unsigned.mbn
 vendor/firmware/vpu20_2v.b00
 vendor/firmware/vpu20_2v.b01
 vendor/firmware/vpu20_2v.b02
@@ -677,6 +708,7 @@ vendor/firmware/vpu20_4v_unsigned.mbn
 # NFC configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # Sensors
@@ -806,6 +838,7 @@ vendor/firmware/st_fts_k3s.ftb:vendor_ramdisk/lib/firmware/st_fts_k3s.ftb
 vendor/firmware/stm_fts_production_limits.csv
 
 # Vibrator effects
+vendor/firmware/aw8697_haptic.bin
 vendor/firmware/0_click_P_RTP.bin
 vendor/firmware/1_doubelClick_P_RTP.bin
 vendor/firmware/2_tick_P_RTP.bin
